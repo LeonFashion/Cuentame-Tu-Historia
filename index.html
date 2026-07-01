@@ -1,284 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Cuéntame Tu Historia</title>
-
   <link rel="stylesheet" href="style.css">
-
-  <link rel="icon"
-        href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌳</text></svg>'>
-
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌳</text></svg>'>
 </head>
 
 <body>
 
 <header class="site-header">
-
-  <div class="brand-area">
-
-    <div class="tree-mark">
-      <div class="tree-top">♣</div>
-      <div class="tree-trunk"></div>
-      <div class="tree-roots">╱╲</div>
+  <a href="#inicio" class="brand">
+    <div class="brand-mark">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="54"></circle>
+        <path d="M60 78V48"></path>
+        <path d="M60 48C45 42 42 25 55 22C62 20 67 26 64 34C74 26 88 33 85 45C82 58 65 55 60 48Z"></path>
+        <path d="M60 78C48 86 38 96 25 96"></path>
+        <path d="M60 78C72 86 82 96 95 96"></path>
+      </svg>
     </div>
 
-    <div class="brand-text">
+    <div class="brand-copy">
       <h1>Cuéntame Tu Historia</h1>
       <p>Cada historia merece ser contada</p>
     </div>
-
-  </div>
+  </a>
 
   <nav class="main-nav">
-    <a href="#inicio">Inicio</a>
-    <a href="#productos">Nuestros Productos</a>
+    <a href="#coleccion">Colección</a>
+    <a href="#proposito">Propósito</a>
     <a href="#testimonios">Testimonios</a>
     <a href="#contacto">Contacto</a>
   </nav>
-
 </header>
 
 <main id="inicio">
 
-  <section class="hero-section">
+  <section class="hero">
+    <div class="hero-copy">
+      <span>Libros para conservar recuerdos familiares</span>
 
-    <div class="hero-text">
-
-      <span class="hero-small">
-        Porque cada familia tiene una historia.
-      </span>
-
-      <h2>
-        Conserva los recuerdos que nunca deberían perderse.
-      </h2>
+      <h2>Toda familia tiene una historia que merece vivir para siempre.</h2>
 
       <p>
-        Nuestros libros ayudan a padres, abuelos, hijos y seres queridos
-        a compartir sus experiencias, recuerdos y enseñanzas para que
-        permanezcan vivas generación tras generación.
+        Nuestros libros guían conversaciones profundas y memorables para que padres,
+        abuelos, hijos y parejas puedan compartir sus recuerdos, enseñanzas y legado.
       </p>
 
-      <div class="hero-buttons">
-
-        <a href="#productos" class="primary-btn">
-          Explorar Colección
-        </a>
-
-        <a href="#testimonios" class="secondary-btn">
-          ¿Por qué regalar uno?
-        </a>
-
+      <div class="hero-actions">
+        <a href="#coleccion" class="btn primary">Ver colección</a>
+        <a href="#proposito" class="btn secondary">Conocer propósito</a>
       </div>
-
     </div>
 
-    <div class="hero-image">
-
-      <img src="images/Mami Cuentame Tu Historia.png"
-           alt="Libro Mamá Cuéntame Tu Historia">
-
+    <div class="hero-visual">
+      <img src="images/Mami Cuentame Tu Historia.png" alt="Libro Mamá Cuéntame Tu Historia">
     </div>
-
   </section>
 
-  <section class="mission-section">
+  <section id="proposito" class="story-section">
+    <div class="story-card">
+      <p class="eyebrow">Nuestro propósito</p>
 
-    <div class="mission-card">
-
-      <div class="small-leaf">❧</div>
+      <h2>Crear libros que acerquen generaciones.</h2>
 
       <p>
-        Nuestra misión es crear libros para todas las personas
-        que tienen una historia que contar y desean preservar
-        sus recuerdos, vivencias y legado para las futuras generaciones.
+        Cuéntame Tu Historia nace para ayudar a las familias a preservar las voces,
+        recuerdos y momentos que muchas veces se pierden con el tiempo. Cada libro
+        es una invitación a preguntar, escuchar y guardar para siempre.
       </p>
-
-      <div class="heart">♥</div>
-
     </div>
-
   </section>
 
-  <section id="productos" class="products-section">
-
-    <div class="section-title-bar">
-      <span>❧</span>
-      <h2>Nuestros Productos</h2>
-      <span>❧</span>
+  <section id="coleccion" class="collection-section">
+    <div class="section-heading">
+      <p>La colección</p>
+      <h2>Libros para quienes más amas</h2>
     </div>
 
     <div class="products-grid">
 
       <article class="product-card">
         <img src="images/Mami Cuentame Tu Historia.png" alt="Mamá Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">1</span>
+        <div>
+          <span>01</span>
           <h3>Mamá</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Papi Cuentame Tu Historia.png" alt="Papá Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">2</span>
+        <div>
+          <span>02</span>
           <h3>Papá</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Abuela Cuentame Tu Historia.png" alt="Abuela Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">3</span>
+        <div>
+          <span>03</span>
           <h3>Abuela</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Abuelo Cuentame Tu Historia.png" alt="Abuelo Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">4</span>
+        <div>
+          <span>04</span>
           <h3>Abuelo</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Hija Cuentame Tu Historia.png" alt="Hija Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">5</span>
+        <div>
+          <span>05</span>
           <h3>Hija</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Hijo Cuentame Tu Historia.png" alt="Hijo Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">6</span>
+        <div>
+          <span>06</span>
           <h3>Hijo</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Esposa Cuentame Tu Historia.png" alt="Esposa Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">7</span>
+        <div>
+          <span>07</span>
           <h3>Esposa</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
       <article class="product-card">
         <img src="images/Esposo Cuentame Tu Historia.png" alt="Esposo Cuéntame Tu Historia">
-        <div class="product-info">
-          <span class="number">8</span>
+        <div>
+          <span>08</span>
           <h3>Esposo</h3>
           <p>cuéntame tu historia</p>
-          <div class="mini-heart">♥</div>
         </div>
       </article>
 
     </div>
-
   </section>
 
   <section id="testimonios" class="testimonials-section">
-
-    <h2>Lo que dicen nuestras familias</h2>
-
-    <div class="divider">— ❧ —</div>
+    <div class="section-heading">
+      <p>Historias compartidas</p>
+      <h2>Lo que dicen nuestras familias</h2>
+    </div>
 
     <div class="testimonials-grid">
+      <blockquote>
+        “Estos libros me dieron la oportunidad de conocer a mi mamá de una forma que nunca imaginé.”
+      </blockquote>
 
-      <div class="testimonial">
-        <div class="quote-mark">“</div>
-        <p>Estos libros me dieron la oportunidad de conocer a mi mamá de una forma que nunca imaginé.</p>
-        <div class="mini-heart">♥</div>
-      </div>
+      <blockquote>
+        “Lloré, reí y aprendí tanto sobre mi papá. Es un tesoro que guardaré para siempre.”
+      </blockquote>
 
-      <div class="testimonial">
-        <div class="quote-mark">“</div>
-        <p>Lloré, reí y aprendí tanto sobre mi papá. Es un tesoro que guardaré para siempre.</p>
-        <div class="mini-heart">♥</div>
-      </div>
+      <blockquote>
+        “Mi abuela se abrió como nunca antes. Ahora tengo recuerdos que nunca olvidaré.”
+      </blockquote>
 
-      <div class="testimonial">
-        <div class="quote-mark">“</div>
-        <p>Mi abuela se abrió como nunca antes. Ahora tengo recuerdos que nunca olvidaré.</p>
-        <div class="mini-heart">♥</div>
-      </div>
-
-      <div class="testimonial">
-        <div class="quote-mark">“</div>
-        <p>Más que un libro, es un legado para mis hijos y para las futuras generaciones.</p>
-        <div class="mini-heart">♥</div>
-      </div>
-
+      <blockquote>
+        “Más que un libro, es un legado para mis hijos y para las futuras generaciones.”
+      </blockquote>
     </div>
-
   </section>
 
-  <section class="features-section">
-
-    <div class="feature">
-      <div class="feature-icon">♡</div>
-      <div>
-        <h3>Calidad Premium</h3>
-        <p>Libros diseñados para perdurar generaciones.</p>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="feature-icon">❧</div>
-      <div>
-        <h3>Hecho con Amor</h3>
-        <p>Cada detalle pensado para tu familia.</p>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="feature-icon">🎁</div>
-      <div>
-        <h3>Un Regalo Inolvidable</h3>
-        <p>El mejor regalo para quien más amas.</p>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="feature-icon">👪</div>
-      <div>
-        <h3>Historias que Unen</h3>
-        <p>Conecta con tus raíces y fortalece tu legado.</p>
-      </div>
-    </div>
-
+  <section class="final-cta">
+    <h2>Regala una conversación que se convertirá en legado.</h2>
+    <p>Porque algún día, esas respuestas serán uno de los tesoros más importantes de tu familia.</p>
+    <a href="#coleccion" class="btn primary">Explorar libros</a>
   </section>
 
 </main>
 
 <footer id="contacto">
-
   <h3>Cuéntame Tu Historia</h3>
-
   <p>Historias que vivirán para siempre.</p>
-
   <p>Contacto próximamente</p>
-
 </footer>
 
 </body>
