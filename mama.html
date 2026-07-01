@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamá, Cuéntame Tu Historia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="brand">
+    <div class="brand-mark">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="54"></circle>
+        <path d="M60 78V48"></path>
+        <path d="M60 48C45 42 42 25 55 22C62 20 67 26 64 34C74 26 88 33 85 45C82 58 65 55 60 48Z"></path>
+        <path d="M60 78C48 86 38 96 25 96"></path>
+        <path d="M60 78C72 86 82 96 95 96"></path>
+      </svg>
+    </div>
+
+    <div class="brand-copy">
+      <h1>Cuéntame Tu Historia</h1>
+      <p>Cada historia merece ser contada</p>
+    </div>
+  </a>
+
+  <nav class="main-nav">
+    <a href="index.html">Inicio</a>
+    <a href="index.html#coleccion">Colección</a>
+    <a href="index.html#proposito">Propósito</a>
+    <a href="index.html#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="product-page">
+
+  <div class="product-gallery">
+
+    <img id="mainProductImage"
+         class="main-product-image"
+         src="images/Mami Cuentame Tu Historia.png"
+         alt="Mamá Cuéntame Tu Historia">
+
+    <div class="thumbnail-row">
+
+      <img onclick="changeProductImage('images/Mami Cuentame Tu Historia.png')"
+           src="images/Mami Cuentame Tu Historia.png"
+           alt="Portada del libro Mamá">
+
+      <div onclick="changeProductImage('images/Mami Cuentame Tu Historia.png')" class="preview-thumb">
+        Portada
+      </div>
+
+      <div onclick="changeProductImage('images/Mami Cuentame Tu Historia.png')" class="preview-thumb">
+        Vista interior
+      </div>
+
+      <div onclick="changeProductImage('images/Mami Cuentame Tu Historia.png')" class="preview-thumb">
+        Preguntas
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="product-details">
+
+    <p class="eyebrow">Libro de recuerdos familiares</p>
+
+    <h2>Mamá, cuéntame tu historia</h2>
+
+    <p class="product-subtitle">
+      Un regalo que se convertirá en un tesoro familiar.
+    </p>
+
+    <p class="product-description">
+      Este libro está diseñado para ayudar a mamá a compartir sus recuerdos,
+      experiencias, consejos y momentos más importantes. Una invitación a conocer
+      su vida con más profundidad y guardar sus respuestas para siempre.
+    </p>
+
+    <div class="product-price">
+      Precio próximamente
+    </div>
+
+    <div class="product-actions">
+      <a href="#" class="btn primary">Solicitar información</a>
+      <a href="index.html#coleccion" class="btn secondary">Volver a la colección</a>
+    </div>
+
+    <div class="product-highlights">
+      <h3>¿Qué encontrarás?</h3>
+
+      <ul>
+        <li>Preguntas sobre su infancia, familia y sueños.</li>
+        <li>Espacios para recuerdos, reflexiones y fotografías.</li>
+        <li>Un formato pensado para conservarse por generaciones.</li>
+        <li>Ideal para cumpleaños, Día de la Madre, Navidad o regalos familiares.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="inside-preview">
+
+  <div class="section-heading">
+    <p>Vista previa</p>
+    <h2>Una invitación a recordar</h2>
+  </div>
+
+  <div class="preview-pages">
+
+    <div class="sample-page">
+      <h3>Infancia</h3>
+      <p>¿Cuál es uno de tus recuerdos favoritos de cuando eras niña?</p>
+      <div class="writing-lines"></div>
+    </div>
+
+    <div class="sample-page">
+      <h3>Familia</h3>
+      <p>¿Qué tradición familiar recuerdas con más cariño?</p>
+      <div class="writing-lines"></div>
+    </div>
+
+    <div class="sample-page">
+      <h3>Consejos</h3>
+      <p>¿Qué consejo te gustaría dejarle a las futuras generaciones?</p>
+      <div class="writing-lines"></div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="memories-section">
+
+  <div class="section-heading">
+    <p>Lo que podrás conservar</p>
+    <h2>Recuerdos que merecen quedarse</h2>
+  </div>
+
+  <div class="memory-grid">
+
+    <div>Infancia</div>
+    <div>Familia</div>
+    <div>Sueños</div>
+    <div>Amor</div>
+    <div>Maternidad</div>
+    <div>Recetas</div>
+    <div>Consejos</div>
+    <div>Fotografías</div>
+
+  </div>
+
+</section>
+
+<section class="final-cta">
+
+  <h2>Regala una conversación con mamá que vivirán para siempre.</h2>
+
+  <p>
+    Porque algún día, sus respuestas serán uno de los tesoros más importantes de tu familia.
+  </p>
+
+  <a href="#" class="btn primary">Solicitar información</a>
+
+</section>
+
+</main>
+
+<footer id="contacto">
+  <h3>Cuéntame Tu Historia</h3>
+  <p>Historias que vivirán para siempre.</p>
+  <p>Contacto próximamente</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
